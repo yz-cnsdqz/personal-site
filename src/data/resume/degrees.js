@@ -1,14 +1,26 @@
 const degrees = [
   {
-    school: 'Stanford University',
-    degree: 'M.S. Computational and Mathematical Engineering',
-    link: 'https://stanford.edu',
+    school: 'Ulm University',
+    degree: 'PhD Computer Science',
+    link: 'https://www.uni-ulm.de/en/',
     year: 2016,
   },
   {
-    school: 'University at Buffalo',
-    degree: 'B.S. Electrical Engineering, Computer Engineering',
-    link: 'https://buffalo.edu',
+    school: 'Saarland University',
+    degree: 'M.S./PhD Computer Science',
+    link: 'https://www.uni-saarland.de/en/home.html',
+    year: 2016,
+  },
+  {
+    school: 'University of Manchester',
+    degree: 'M.S. Advanced Control Systems',
+    link: 'https://www.manchester.ac.uk/',
+    year: 2016,
+  },
+  {
+    school: 'Southwest Jiaotong University',
+    degree: 'B.S. Mechanical Engineering and Automation',
+    link: 'https://en.swjtu.edu.cn/',
     year: 2012,
   },
 ];

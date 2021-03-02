@@ -8,22 +8,9 @@ const validateText = (text) => {
   return re.test(text) || text.length === 0;
 };
 
+// note that the message in the following list will be shown as animation on the webpage
 const messages = [
-  'hi',
-  'hello',
-  'hola',
-  'you-can-email-me-at-literally-anything! Really',
-  'well, not anything. But most things',
-  'like-this',
-  'or-this',
-  'but not this :(  ',
-  'you.can.also.email.me.with.specific.topics.like',
-  'just-saying-hi',
-  'please-work-for-us',
-  'help',
-  'admin',
-  'or-I-really-like-your-website',
-  'thanks',
+  'yan.zhang',
 ];
 
 const useInterval = (callback, delay) => {
@@ -76,9 +63,9 @@ const EmailLink = () => {
       onMouseEnter={() => setIsActive(false)}
       onMouseLeave={() => (idx < messages.length) && setIsActive(true)}
     >
-      <a href={validateText(message) ? `mailto:${message}@mldangelo.com` : ''}>
+      <a href={validateText(message) ? `mailto:${message}@inf.ethz.ch` : ''}>
         <span>{message}</span>
-        <span>@mldangelo.com</span>
+        <span>@inf.ethz.ch</span>
       </a>
     </div>
   );
