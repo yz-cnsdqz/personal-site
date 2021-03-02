@@ -25,12 +25,13 @@ const sections = [
 const Resume = () => (
   <Main
     title="Resume"
-    description="Michael D'Angelo's Resume. Arthena, Matroid, YC, Skeptical Investments, Stanford ICME, Planet Labs, and Facebook."
+    description="Yan Zhang's Resume."
   >
     <article className="post" id="resume">
       <header>
         <div className="title">
           <h2 data-testid="heading"><Link to="resume">Resume</Link></h2>
+          <p>Download <a href="https://yz-cnsdqz.github.io/src/data/resume/cv.pdf">PDF</a> here</p>
           <div className="link-container">
             {sections.map((sec) => (
               <h4 key={sec}>
@@ -40,6 +41,7 @@ const Resume = () => (
 
         </div>
       </header>
+      
       <Education data={degrees} />
       <Experience data={positions} />
       {/* <Skills skills={skills} categories={categories} /> */}
