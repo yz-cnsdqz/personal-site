@@ -1,7 +1,7 @@
 const routes = [
   {
     index: true,
-    label: "Yan Zhang",
+    label: 'Yan Zhang',
     path: '/',
   },
   {
@@ -13,12 +13,12 @@ const routes = [
     path: '/resume',
   },
   {
-    label: 'Projects',
+    label: 'Publications',
     path: '/projects',
   },
   {
-    label: 'Stats',
-    path: '/stats',
+    label: 'Blog',
+    path: '/blog',
   },
   {
     label: 'Contact',

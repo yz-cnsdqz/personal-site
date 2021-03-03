@@ -5,7 +5,7 @@ const positions = [
     link: 'https://ivc.ethz.ch/',
     daterange: 'July 2020 - Present',
     points: [
-      'Developing advanced algorithms and systems for human behavior perception and systhesis',
+      'Developing algorithms/systems for human behavior perception and systhesis',
       'Collaborating with Microsoft, FIFA and other organizations',
       'Supervising student projects and bachelor/master thesis',
       'Teaching',
@@ -17,7 +17,7 @@ const positions = [
     link: 'https://ps.is.mpg.de/',
     daterange: 'Jan 2020 - Present',
     points: [
-      'Developing advanced algorithms and systems for human behavior perception and systhesis',
+      'Developing algorithms/systems for human behavior perception and systhesis',
     ],
   },
   {
@@ -26,7 +26,7 @@ const positions = [
     link: 'https://ivc.ethz.ch/',
     daterange: 'Jan 2020 - June 2020',
     points: [
-      'Developing advanced algorithms and systems for human behavior perception and systhesis',
+      'Developing algorithms/systems for human behavior perception and systhesis',
     ],
   },
   {
@@ -35,7 +35,7 @@ const positions = [
     link: 'https://ps.is.mpg.de/',
     daterange: 'Oct 2018 - Jan 2020',
     points: [
-      'Developing advanced algorithms and systems for human behavior perception and systhesis',
+      'Developing algorithms/systems for human behavior perception and systhesis',
     ],
   },
   {
@@ -44,7 +44,9 @@ const positions = [
     link: 'https://www.uni-ulm.de/en/in/institute-of-neural-information-processing/',
     daterange: 'Dec 2015 - Sep 2018',
     points: [
-      'BMBF SenseEmotion project: Building data capturing systems and designing algorithms of human action analysis for elderly people healthcare',
+      'BMBF SenseEmotion project.',
+      'Building multi-sensor human data capturing system, including camera networks, mocap, physilogical sensors and their synchronization.',
+      'Human action analysis for elderly people healthcare.',
     ],
   },
   {

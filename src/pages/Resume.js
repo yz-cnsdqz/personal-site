@@ -6,7 +6,7 @@ import Main from '../layouts/Main';
 import Education from '../components/Resume/Education';
 import Experience from '../components/Resume/Experience';
 // import Skills from '../components/Resume/Skills';
-import Courses from '../components/Resume/Courses';
+import Teaching from '../components/Resume/Courses';
 import References from '../components/Resume/References';
 
 import courses from '../data/resume/courses';
@@ -17,7 +17,6 @@ import positions from '../data/resume/positions';
 const sections = [
   'Education',
   'Experience',
-  // 'Skills',
   'Teaching',
   'References',
 ];
@@ -41,11 +40,11 @@ const Resume = () => (
 
         </div>
       </header>
-      
       <Education data={degrees} />
+      <p> </p><p> </p>
       <Experience data={positions} />
-      {/* <Skills skills={skills} categories={categories} /> */}
-      <Courses data={courses} />
+      <Teaching data={courses} />
+      <p> </p><p> </p>
       <References />
 
     </article>

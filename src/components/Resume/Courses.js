@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import Course from './Courses/Course';
+import Course from './Teaching/Course';
 
 const getRows = (courses) => courses.sort((a, b) => {
   let ret = 0;
@@ -22,7 +22,7 @@ const Courses = ({ data }) => (
   <div className="courses">
     <div className="link-to" id="courses" />
     <div className="title">
-      <h3>Teached Courses</h3>
+      <h3>Teaching</h3>
     </div>
     <ul className="course-list">
       {getRows(data)}

@@ -10,19 +10,18 @@ const Index = () => (
     <article className="post" id="index">
       <header>
         <div className="title">
-          <h2 data-testid="heading"><Link to="/">About me</Link></h2>
+          <h2 data-testid="heading"><Link to="/">News about me</Link></h2>
           <p>
             Do AI for People: Human behavior capturing, understanding, and synthesis.
           </p>
         </div>
       </header>
-      <p> Welcome to my website. Please feel free to read more <Link to="/about">about me</Link>,
-        or you can check out my {' '}
-        <Link to="/resume">resume</Link>, {' '}
-        <Link to="/projects">publications</Link>, {' '}
-        view <Link to="/stats">site statistics</Link>, {' '}
-        or <Link to="/contact">contact</Link> me.
-      </p>
+      <ul>
+        <li>[2021.3.3] Two papers are accepted by CVPR 2021.</li>
+        <li>[2020.11.26] Our paper of grasping field gets the best paper award on 3DV 2020.</li>
+        <li>[2020.10.1] Two papers (1 oral + 1 poster) are accepted by 3DV 2020.</li>
+        <li>[2020.8.1] Start the postdoc position at ETH Zurich, advised by Prof. Siyu Tang.</li>
+      </ul>
       {/* <p> Source available <a href="https://github.com/mldangelo/personal-site">here</a>.</p> */}
     </article>
   </Main>
