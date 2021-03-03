@@ -39,7 +39,7 @@ const positions = [
     ],
   },
   {
-    company: 'Institute of Neural Information Processing',
+    company: 'Institute of Neural Information Processing, Ulm University',
     position: 'Research Assistant',
     link: 'https://www.uni-ulm.de/en/in/institute-of-neural-information-processing/',
     daterange: 'Dec 2015 - Sep 2018',
