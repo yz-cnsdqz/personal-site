@@ -17,7 +17,8 @@ const Index = () => (
         </div>
       </header>
       <ul>
-        <li>[2021.3.3] Two papers are accepted by CVPR 2021.</li>
+        <li>[2021.6.28] I join CLS as an associated postdoc. See <a href="https://learning-systems.org/postdocs">here</a> for details.</li>
+        <li>[2021.3.3] Two papers (MOJO and LEAP) are accepted by CVPR 2021.</li>
         <li>[2020.11.26] Our paper of grasping field gets the best paper award on 3DV 2020.</li>
         <li>[2020.10.1] Two papers (1 oral + 1 poster) are accepted by 3DV 2020.</li>
         <li>[2020.8.1] Start the postdoc position at ETH Zurich, advised by Prof. Siyu Tang.</li>
